@@ -1,0 +1,21 @@
+{
+	"name": "JsonDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SurajAzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "transaction.json",
+				"folderPath": "Silver",
+				"container": "surajcontainer"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

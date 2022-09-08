@@ -1,0 +1,9 @@
+{
+	"name": "SurajDataFactory11",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7cbf68a9-e3cf-4bad-a522-fcc7e4458953",
+		"tenantId": "d074e917-c8d9-42cc-8986-2cd1bdfbd079"
+	}
+}
