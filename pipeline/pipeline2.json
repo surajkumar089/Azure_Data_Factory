@@ -5,7 +5,14 @@
 			{
 				"name": "Notebook1",
 				"type": "DatabricksNotebook",
-				"dependsOn": [],
+				"dependsOn": [
+					{
+						"activity": "Set_variable",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
 				"policy": {
 					"timeout": "0.12:00:00",
 					"retry": 0,
@@ -15,14 +22,39 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Suraj_Folder/Suraj_Notebook"
+					"notebookPath": "/Suraj_Folder/Suraj_Notebook",
+					"baseParameters": {
+						"processed_date": {
+							"value": "@variables('Suraj_Variable')",
+							"type": "Expression"
+						},
+						"source_table": "Customer"
+					}
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
 					"type": "LinkedServiceReference"
 				}
+			},
+			{
+				"name": "Set_variable",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "Suraj_Variable",
+					"value": {
+						"value": "@formatDateTime(utcnow(),'yyyy/MM/dd')",
+						"type": "Expression"
+					}
+				}
 			}
 		],
+		"variables": {
+			"Suraj_Variable": {
+				"type": "String"
+			}
+		},
 		"folder": {
 			"name": "Azure_DataBricks"
 		},
