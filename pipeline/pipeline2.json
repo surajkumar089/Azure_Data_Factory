@@ -44,7 +44,7 @@
 				"typeProperties": {
 					"variableName": "Suraj_Variable",
 					"value": {
-						"value": "@formatDateTime(utcnow(),'yyyy/MM/dd')",
+						"value": "@first('')",
 						"type": "Expression"
 					}
 				}
