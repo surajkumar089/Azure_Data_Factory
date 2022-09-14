@@ -24,7 +24,7 @@
 				"typeProperties": {
 					"notebookPath": "/Suraj_Folder/Suraj_Notebook",
 					"baseParameters": {
-						"processed_date": {
+						"Variable": {
 							"value": "@variables('Suraj_Variable')",
 							"type": "Expression"
 						},
