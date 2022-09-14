@@ -28,7 +28,7 @@
 							"value": "@variables('Suraj_Variable')",
 							"type": "Expression"
 						},
-						"source_table": "Customer"
+						"location": "change_location"
 					}
 				},
 				"linkedServiceName": {
