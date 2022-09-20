@@ -39,130 +39,130 @@
 						"mappings": [
 							{
 								"source": {
-									"path": "$['data'][0]['ID Nation']"
+									"path": "$['data']['ID Nation']"
 								},
 								"sink": {
-									"path": "$['data'][0]['ID Nation']"
+									"path": "$['data']['ID Nation']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['data'][0]['Nation']"
+									"path": "$['data']['Nation']"
 								},
 								"sink": {
-									"path": "$['data'][0]['Nation']"
+									"path": "$['data']['Nation']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['data'][0]['ID Year']"
+									"path": "$['data']['ID Year']"
 								},
 								"sink": {
-									"path": "$['data'][0]['ID Year']"
+									"path": "$['data']['ID Year']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['data'][0]['Year']"
+									"path": "$['data']['Year']"
 								},
 								"sink": {
-									"path": "$['data'][0]['Year']"
+									"path": "$['data']['Year']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['data'][0]['Population']"
+									"path": "$['data']['Population']"
 								},
 								"sink": {
-									"path": "$['data'][0]['Population']"
+									"path": "$['data']['Population']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['data'][0]['Slug Nation']"
+									"path": "$['data']['Slug Nation']"
 								},
 								"sink": {
-									"path": "$['data'][0]['Slug Nation']"
+									"path": "$['data']['Slug Nation']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['source'][0]['measures'][0]"
+									"path": "$['source']['measures']"
 								},
 								"sink": {
-									"path": "$['source'][0]['measures'][0]"
+									"path": "$['source']['measures']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['source'][0]['annotations']['source_name']"
+									"path": "$['source']['annotations']['source_name']"
 								},
 								"sink": {
-									"path": "$['source'][0]['annotations']['source_name']"
+									"path": "$['source']['annotations']['source_name']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['source'][0]['annotations']['source_description']"
+									"path": "$['source']['annotations']['source_description']"
 								},
 								"sink": {
-									"path": "$['source'][0]['annotations']['source_description']"
+									"path": "$['source']['annotations']['source_description']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['source'][0]['annotations']['dataset_name']"
+									"path": "$['source']['annotations']['dataset_name']"
 								},
 								"sink": {
-									"path": "$['source'][0]['annotations']['dataset_name']"
+									"path": "$['source']['annotations']['dataset_name']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['source'][0]['annotations']['dataset_link']"
+									"path": "$['source']['annotations']['dataset_link']"
 								},
 								"sink": {
-									"path": "$['source'][0]['annotations']['dataset_link']"
+									"path": "$['source']['annotations']['dataset_link']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['source'][0]['annotations']['table_id']"
+									"path": "$['source']['annotations']['table_id']"
 								},
 								"sink": {
-									"path": "$['source'][0]['annotations']['table_id']"
+									"path": "$['source']['annotations']['table_id']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['source'][0]['annotations']['topic']"
+									"path": "$['source']['annotations']['topic']"
 								},
 								"sink": {
-									"path": "$['source'][0]['annotations']['topic']"
+									"path": "$['source']['annotations']['topic']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['source'][0]['annotations']['subtopic']"
+									"path": "$['source']['annotations']['subtopic']"
 								},
 								"sink": {
-									"path": "$['source'][0]['annotations']['subtopic']"
+									"path": "$['source']['annotations']['subtopic']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['source'][0]['name']"
+									"path": "$['source']['name']"
 								},
 								"sink": {
-									"path": "$['source'][0]['name']"
+									"path": "$['source']['name']"
 								}
 							},
 							{
 								"source": {
-									"path": "$['source'][0]['substitutions'][0]"
+									"path": "$['source']['substitutions']"
 								},
 								"sink": {
-									"path": "$['source'][0]['substitutions'][0]"
+									"path": "$['source']['substitutions']"
 								}
 							}
 						]
