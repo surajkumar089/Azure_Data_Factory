@@ -1,0 +1,12 @@
+{
+	"name": "RestService5",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://datausa.io/api/data?drilldowns=Nation&measures=Population",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
