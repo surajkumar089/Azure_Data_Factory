@@ -1,0 +1,20 @@
+{
+	"name": "Json1test",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SurajAzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Empdeatils.json",
+				"folderPath": "Bronze2",
+				"container": "surajcontainerproject2"
+			}
+		},
+		"schema": {}
+	}
+}
