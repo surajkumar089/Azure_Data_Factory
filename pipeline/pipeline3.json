@@ -43,7 +43,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "JsonDataSet",
+						"referenceName": "Json_data_set",
 						"type": "DatasetReference"
 					}
 				]
