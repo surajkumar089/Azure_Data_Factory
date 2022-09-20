@@ -1,0 +1,20 @@
+{
+	"name": "Json_data_set",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SurajAzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Userdetails.json",
+				"folderPath": "Bronze",
+				"container": "surajcontainerproject2"
+			}
+		},
+		"schema": {}
+	}
+}
