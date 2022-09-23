@@ -1,0 +1,12 @@
+{
+	"name": "RestServicedemo1",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/austinyoung123/dbtestingsamples/master/calories_burnt.json",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
