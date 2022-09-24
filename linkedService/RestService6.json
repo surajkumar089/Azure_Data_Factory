@@ -1,0 +1,12 @@
+{
+	"name": "RestService6",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://api.openweathermap.org/data/2.5/weather?lat=12.97&lon=77.59&appid=2e34adc72f56d35fe48651c40382998e",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
