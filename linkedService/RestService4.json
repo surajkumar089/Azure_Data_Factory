@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "RestService",
 		"typeProperties": {
-			"url": "https://jsonplaceholder.typicode.com/posts",
+			"url": "https://datausa.io/api/data?drilldowns=Nation&measures=Population",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
